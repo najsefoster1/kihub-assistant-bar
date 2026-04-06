@@ -1,0 +1,20 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.22.1",
+    "sdksVersions": {},
+    "version": "1.22.2",
+    "libraryName": "kihub-assistant-bar",
+    "libraryId": "582d0cf6-5b2f-4115-9dea-693bd1984c3f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "kihub-assistant-bar",
+    "solutionShortDescription": "kihub-assistant-bar description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

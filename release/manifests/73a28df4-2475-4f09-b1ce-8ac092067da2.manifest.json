@@ -1,0 +1,31 @@
+{
+  "id": "73a28df4-2475-4f09-b1ce-8ac092067da2",
+  "alias": "KihubAssistantApplicationCustomizer",
+  "componentType": "Extension",
+  "extensionType": "ApplicationCustomizer",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "<!-- PATH TO CDN -->"
+    ],
+    "entryModuleId": "kihub-assistant-application-customizer",
+    "scriptResources": {
+      "kihub-assistant-application-customizer": {
+        "type": "path",
+        "path": "kihub-assistant-application-customizer_12f879625b77f91ee0d6.js"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.22.2"
+      },
+      "@microsoft/sp-application-base": {
+        "type": "component",
+        "id": "4df9bb86-ab0a-4aab-ab5f-48bf167048fb",
+        "version": "1.22.2"
+      }
+    }
+  }
+}

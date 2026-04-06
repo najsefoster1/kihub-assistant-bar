@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="KihubAssistant"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="73a28df4-2475-4f09-b1ce-8ac092067da2"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "kihub-assistant-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/kihubAssistant/KihubAssistantApplicationCustomizer.js",
+          "manifest": "./src/extensions/kihubAssistant/KihubAssistantApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KihubAssistantApplicationCustomizerStrings": "lib/extensions/kihubAssistant/loc/{locale}.js"
+  }
+}

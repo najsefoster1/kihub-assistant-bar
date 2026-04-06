@@ -59,9 +59,7 @@ gulp package-solution --ship
 
 ## Screenshots
 
-Add your screenshot to the assets folder and reference it below:
-
-![Assistant Bar](sharepoint/assets/KI Hub Assistant Bar.png)
+![Assistant Bar](sharepoint/assets/kihub-assistant-bar.png)
 
 ## Future Enhancements
 

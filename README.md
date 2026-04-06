@@ -1,77 +1,77 @@
-# kihub-assistant-bar
+# KIHUB Assistant Bar (SPFx)
 
-## Summary
+This project is a custom SharePoint Framework (SPFx) Application Customizer designed to improve the user experience within SharePoint. It introduces a floating assistant bar that provides quick access to commonly used tools such as Microsoft Copilot and other internal resources.
 
-Short summary on functionality and used technologies.
+## Overview
 
-[picture of the solution in action, if possible]
+The KIHUB Assistant Bar was created to make navigation within the Knowledge and Innovation Hub more intuitive and efficient. Instead of relying on traditional navigation menus or searching through multiple pages, users can access important tools directly from a floating interface embedded on the page.
 
-## Used SharePoint Framework Version
+The goal of this solution is to simplify how users interact with SharePoint while also encouraging adoption of modern tools and workflows.
 
-![version](https://img.shields.io/badge/version-1.22.2-green.svg)
+## Key Features
 
-## Applies to
+- Floating assistant bar with quick access links  
+- Easy access to tools like Copilot and internal resources  
+- Seamless integration into SharePoint modern pages  
+- Clean and non-intrusive user interface  
+- Built using SPFx Application Customizer  
+- Designed to improve usability and reduce navigation time  
 
-- [SharePoint Framework](https://aka.ms/spfx)
-- [Microsoft 365 tenant](https://docs.microsoft.com/sharepoint/dev/spfx/set-up-your-developer-tenant)
+## Business Value
 
-> Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
+This solution helps improve overall productivity by making important tools easier to access. It reduces the time users spend navigating between pages and creates a more consistent experience across the site.
 
-## Prerequisites
+It also supports adoption of newer tools like Copilot by placing them directly in front of users, rather than requiring them to search for them.
 
-> Any special pre-requisites?
+## Tech Stack
 
-## Solution
+- SharePoint Framework (SPFx)  
+- TypeScript  
+- React  
+- Fluent UI  
 
-| Solution    | Author(s)                                               |
-| ----------- | ------------------------------------------------------- |
-| folder name | Author details (name, company, twitter alias with link) |
+## Project Structure
 
-## Version history
+src/                SPFx extension source code  
+config/             Build and configuration files  
+sharepoint/         Solution packaging assets  
+assets/             Screenshots and visuals  
 
-| Version | Date             | Comments        |
-| ------- | ---------------- | --------------- |
-| 1.1     | March 10, 2021   | Update comment  |
-| 1.0     | January 29, 2021 | Initial release |
+## Getting Started (Local Development)
 
-## Disclaimer
+Run the following commands to install dependencies and start the local development server:
 
-**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+npm install  
+gulp serve  
 
----
+## Build and Package
 
-## Minimal Path to Awesome
+To create a production-ready package, run:
 
-- Clone this repository
-- Ensure that you are at the solution folder
-- in the command-line run:
-  - `npm install -g @rushstack/heft`
-  - `npm install`
-  - `heft start`
+gulp bundle --ship  
+gulp package-solution --ship  
 
-> Include any additional steps as needed.
+## Deployment
 
-Other build commands can be listed using `heft --help`.
+1. Upload the generated .sppkg file to the SharePoint App Catalog  
+2. Deploy the solution  
+3. Add the extension to your target SharePoint site  
 
-## Features
+## Screenshots
 
-Description of the extension that expands upon high-level summary above.
+Add your screenshot to the assets folder and reference it below:
 
-This extension illustrates the following concepts:
+![Assistant Bar](assets/assistant-bar.png)
 
-- topic 1
-- topic 2
-- topic 3
+## Future Enhancements
 
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
+Future improvements may include additional assistant bubbles, deeper integration with SharePoint data sources, and more customization options for users.
 
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
+## Author
 
-## References
+Najse Foster  
+https://github.com/najsefoster1  
 
-- [Getting started with SharePoint Framework](https://docs.microsoft.com/sharepoint/dev/spfx/set-up-your-developer-tenant)
-- [Building for Microsoft teams](https://docs.microsoft.com/sharepoint/dev/spfx/build-for-teams-overview)
-- [Use Microsoft Graph in your solution](https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
-- [Publish SharePoint Framework applications to the Marketplace](https://docs.microsoft.com/sharepoint/dev/spfx/publish-to-marketplace-overview)
-- [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp) - Guidance, tooling, samples and open-source controls for your Microsoft 365 development
-- [Heft Documentation](https://heft.rushstack.io/)
+## Notes
+
+This project reflects a broader effort to modernize the SharePoint experience and create more user-friendly, efficient ways for teams to access tools and information.
